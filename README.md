@@ -1,2 +1,2 @@
-# RIIN
-Code for the Paper RIIN
+# LENO
+Code for the Paper LENO
