@@ -1,2 +1,2 @@
-# LENO
-Code for the Paper LENO
+# BOLA
+Code for the Paper BOLA
