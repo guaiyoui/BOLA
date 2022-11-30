@@ -6,9 +6,6 @@ from torch.autograd import Variable
 from utils import dist2sim
 from torch.nn import Conv1d
 
-def interaction(X, Neighbors):
-    return X-Neighbors
-
 class Imputation(nn.Module):
     def __init__(self, input_dim, output_dim, k_neighbors):
         super(Imputation, self).__init__()
