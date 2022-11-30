@@ -21,7 +21,7 @@ def parse_args():
     parser.add_argument('--seed', type=int, default=17, help='Random seed.')
     parser.add_argument('--max_iter', type=int, default=3, help='The maximum number of iterations.')
     
-    parser.add_argument('--epochs', type=int, default=10, help='Number of epochs to train.')
+    parser.add_argument('--epochs', type=int, default=40, help='Number of epochs to train.')
     parser.add_argument('--lr', type=float, default=0.0100, help='Initial learning rate.')
     parser.add_argument('--weight_decay', type=float, default=2e-3, help='Weight decay (L2 loss on parameters).')
     parser.add_argument('--metric', choices=['cityblock', 'cosine','euclidean', 'haversine', 'l1', 'l2', 'manhattan', 'nan_euclidean'], default='euclidean', type=str)
